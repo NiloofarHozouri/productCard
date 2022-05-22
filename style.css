@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("font/Vazir.woff") format("woff");
+}
+@font-face {
+  font-family: "Vazir";
+  src: url("font/Vazir.woff2") format("woff2");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Muli");
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: "Vazir";
+}
+body {
+  font-family: "Vazir";
+}
+h1,
+h2,
+h3,
+.foot {
+  font-family: "Vazir";
+}
+h1 {
+  color: #ff6d39;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 21px;
+  display: inline-block;
+}
+.product-name i {
+  color: #ffffff;
+  margin: 0px 12px;
+  transition: 0.3s all ease;
+}
+.product-name i:hover {
+  color: #ff6d39;
+  cursor: pointer;
+}
+h3 {
+  color: #ffffff;
+  margin-top: 84px;
+  font-size: 20px;
+  font-weight: 500;
+}
+h2 {
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 29px;
+}
+
+h4 {
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+h4.dis {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 17px;
+  margin-left: 30px;
+  text-decoration: line-through #ea3201;
+}
+h4.dis span {
+  text-decoration: line-through #ea3201;
+}
+.discount {
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  margin-right: 25px;
+}
+li:first-child {
+  margin-right: 0;
+}
+ul li {
+  color: #ffffff;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 11px;
+}
+.bg {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 2px;
+  margin-right: 20px;
+  transition: 0.3s all ease;
+}
+.bg:hover {
+  background-color: #ff6d39;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+.yellow {
+  content: "";
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #fec60f;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+.black {
+  content: "";
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  background-color: #000000;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+.blue {
+  content: "";
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  background-color: #02a2ca;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+.yellow:hover,
+.black:hover,
+.blue:hover {
+  border: 2px solid #f76b39;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.foot {
+  color: #ffffff;
+  float: right;
+  margin-top: 20px;
+  transition: 0.3s all ease;
+  font-weight: 500;
+  font-size: 11px;
+}
+.foot i:nth-child(1) {
+  margin-right: 0;
+}
+.foot i {
+  margin-left: 20px;
+}
+.foot:hover {
+  color: #f76b39;
+  cursor: pointer;
+}
+.left i {
+  color: #ffd5c6;
+  margin-top: 260px;
+  transition: 0.3s all ease;
+}
+.left i:hover {
+  cursor: pointer;
+  color: #2a2f40;
+}
+.card {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-right: 15%;
+}
+.right {
+  content: "";
+  z-index: 3;
+  height: 420px;
+  width: 626px;
+  background-color: #2a2f40;
+  margin-left: 200px;
+}
+.left {
+  content: "";
+  position: absolute;
+  height: 420px;
+  width: 330px;
+  display: flex;
+  align-items: center;
+  background-color: #ff6d39;
+  margin-left: 93px;
+  z-index: 5;
+  border-radius: 50% 0% 0% 50%;
+}
+.left img {
+  margin-right: -80px;
+  transform: scaleX(-1);
+}
+.product-info {
+  position: absolute;
+  z-index: 10;
+  margin-right: 345px;
+  height: 394px;
+  width: 305px;
+}
+.mr-50 {
+  margin-right: 50px;
+}
